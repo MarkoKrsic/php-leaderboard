@@ -39,5 +39,7 @@ Copyright (c) 2011 David Czarnecki. See LICENSE.txt for further details.
  $result = $red->scoreAndRankFor($name);
  $total =  $red->totalMembers();
  echo " Rank: ".$result['rank']." of ".$total; 
+ 
+ == See Wiki for more functions and documentation.
 
 
