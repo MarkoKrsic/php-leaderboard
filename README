@@ -32,3 +32,12 @@ The following ports have been made of the leaderboard gem.
 
 Copyright (c) 2011 David Czarnecki. See LICENSE.txt for further details.
 
+== SAMPLE FUNCTIONS
+* Rank:X of Total:Y players
+ 
+ $red = new Leaderboard('scores');
+ $result = $red->scoreAndRankFor($name);
+ $total =  $red->totalMembers();
+ echo " Rank: ".$result['rank']." of ".$total; 
+
+
