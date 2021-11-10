@@ -23,6 +23,7 @@ if ($f1b == $lookupdHASH){
     $redis= new Leaderboard('scores');
     $result = $redis>scoreAndRankFor($name);
     $total =  $redis>totalMembers();
+    $redis>close();
 
 
     echo " Rank: ".$result['rank']." of ".$total; 
