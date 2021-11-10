@@ -2,11 +2,13 @@
 
 Leaderboards backed by Redis in PHP, http://redis.io.
 
-Builds off ideas proposed in http://blog.agoragames.com/2011/01/01/creating-high-score-tables-leaderboards-using-redis/.
+Builds off ideas proposed in http://blog.agoragames.com/2011/01/01/creating-high-score-tables-leaderboards-using-redis/. - WEBSITE DOWN
 
 == Usage
 
-For now, look at the Ruby leaderboard documentation, https://github.com/agoragames/leaderboard, or the tests for usage.
+See the foo.php file in the PHP-REDIS folder. It includes sample functions to go with the GDScript file in the GODOT folder.
+
+See the test file for more functions prebuilt into the main/Library.php script.
 
 == Ports
 
