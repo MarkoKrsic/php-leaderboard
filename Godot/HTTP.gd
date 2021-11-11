@@ -1,3 +1,5 @@
+#HTTP.gd - Written by Marko Krsic - MIT License - CC0
+
 extends Node
 onready var player = get_tree().get_current_scene().find_node("Player")
 onready var level = get_tree().get_current_scene().find_node("Level")
